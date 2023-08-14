@@ -7,7 +7,7 @@ const contactSchema = new mongoose.Schema({
   linkPrecedence: String,
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
-  deletedAt: Date,
+  
 });
 
 const Contact = mongoose.model("Contact", contactSchema);
